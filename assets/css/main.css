@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
-@import url("fontawesome-all.min.css");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
 /*
 	Parallelism by HTML5 UP
@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	scroll-behavior: smooth;
+	}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -83,16 +85,13 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
+		
 		background-position: top left, bottom left, auto;
 		background-size: auto, 100% 100%, cover;
 		background-attachment: fixed;
 		background-repeat: repeat, no-repeat, auto;
 		position: relative;
-		background-color: #150C07;
+		background-color: #222325;
 		line-height: 1.75em;
 		overflow-x: hidden;
 		overflow-y: auto;
@@ -171,7 +170,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #d64760;
+			color: #ff7b00;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -262,7 +261,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: "Font Awesome 5 Free";
 		}
 
 /* Wrapper */
@@ -371,7 +370,7 @@ input, select, textarea {
 		}
 
 			#main .items > :last-child {
-				border-right: solid 10px #ffffff;
+				border-right: solid 10px #000;
 			}
 
 		#main .item {
@@ -384,8 +383,8 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			margin: 5px;
-			height: 16em;
-			box-shadow: 0 0 0 10px #ffffff;
+			height: 18em;
+			box-shadow: 0 0 0 10px #000;
 		}
 
 			#main .item.span-1 {
@@ -716,7 +715,7 @@ input, select, textarea {
 	.poptrox-popup {
 		background: #1a1f2c;
 		background: rgba(18, 21, 29, 0.9);
-		box-shadow: 0px 0px 0px 10px #fff, 0px 10px 60px 10px rgba(8, 11, 19, 0.55);
+		box-shadow: 0px 0px 0px 10px #000, 0px 10px 60px 10px rgba(8, 11, 19, 0.55);
 		cursor: default;
 	}
 
@@ -743,7 +742,7 @@ input, select, textarea {
 			line-height: 75px;
 			text-align: center;
 			font-size: 0em;
-			color: #fff;
+			color: #ffffff;
 		}
 
 		.poptrox-popup .nav-next, .poptrox-popup .nav-previous {
@@ -811,7 +810,7 @@ input, select, textarea {
 			.poptrox-popup {
 				background: #0a0f1c;
 				box-shadow: 0px 0px 30px 10px rgba(8, 11, 19, 0.85);
-				border: solid 2.5px #fff;
+				border: solid 2.5px #000;
 				-moz-box-sizing: content-box;
 				-webkit-box-sizing: content-box;
 				-ms-box-sizing: content-box;
@@ -831,3 +830,36 @@ input, select, textarea {
 				}
 
 		}
+
+.logo {padding: 15px;}
+
+.logo	img {
+	width: 3em;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 0px;
+  background-color: var(--primary);
+    position: fixed
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  font-family: 'Source Sans Pro';
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+  
+}
+
+ul li a {
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1em;
+  
+}
