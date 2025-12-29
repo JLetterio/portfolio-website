@@ -213,6 +213,7 @@ input, select, textarea {
 
 				ul.icons li a:hover {
 					opacity: 1.0;
+					color: #ff7b00
 				}
 
 			ul.icons li:first-child {
@@ -342,14 +343,14 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		-moz-transition: opacity 1s ease-in-out;
-		-webkit-transition: opacity 1s ease-in-out;
-		-ms-transition: opacity 1s ease-in-out;
-		transition: opacity 1s ease-in-out;
-		-moz-transition-delay: 0.5s;
-		-webkit-transition-delay: 0.5s;
-		-ms-transition-delay: 0.5s;
-		transition-delay: 0.5s;
+		-moz-transition: opacity .8s ease-in-out;
+		-webkit-transition: opacity .8s ease-in-out;
+		-ms-transition: opacity .8s ease-in-out;
+		transition: opacity .8s ease-in-out;
+		-moz-transition-delay: 0.4s;
+		-webkit-transition-delay: 0.4s;
+		-ms-transition-delay: 0.4s;
+		transition-delay: 0.4s;
 		position: relative;
 		z-index: 1;
 		width: -moz-min-content;
@@ -475,45 +476,45 @@ input, select, textarea {
 				}
 
 				#main .item.thumb.delay-1 img {
-					-moz-transition-delay: 1.375s;
-					-webkit-transition-delay: 1.375s;
-					-ms-transition-delay: 1.375s;
-					transition-delay: 1.375s;
+					-moz-transition-delay: 1.175s;
+					-webkit-transition-delay: 1.175s;
+					-ms-transition-delay: 1.175s;
+					transition-delay: 1.175s;
 				}
 
 				#main .item.thumb.delay-2 img {
-					-moz-transition-delay: 1.5s;
-					-webkit-transition-delay: 1.5s;
-					-ms-transition-delay: 1.5s;
-					transition-delay: 1.5s;
+					-moz-transition-delay: 1.3s;
+					-webkit-transition-delay: 1.3s;
+					-ms-transition-delay: 1.3s;
+					transition-delay: 1.3s;
 				}
 
 				#main .item.thumb.delay-3 img {
-					-moz-transition-delay: 1.625s;
-					-webkit-transition-delay: 1.625s;
-					-ms-transition-delay: 1.625s;
-					transition-delay: 1.625s;
+					-moz-transition-delay: 1.525s;
+					-webkit-transition-delay: 1.525s;
+					-ms-transition-delay: 1.525s;
+					transition-delay: 1.525s;
 				}
 
 				#main .item.thumb.delay-4 img {
-					-moz-transition-delay: 1.75s;
-					-webkit-transition-delay: 1.75s;
-					-ms-transition-delay: 1.75s;
-					transition-delay: 1.75s;
+					-moz-transition-delay: 1.65s;
+					-webkit-transition-delay: 1.65s;
+					-ms-transition-delay: 1.65s;
+					transition-delay: 1.65s;
 				}
 
 				#main .item.thumb.delay-5 img {
-					-moz-transition-delay: 1.875s;
-					-webkit-transition-delay: 1.875s;
-					-ms-transition-delay: 1.875s;
-					transition-delay: 1.875s;
+					-moz-transition-delay: 1.775s;
+					-webkit-transition-delay: 1.775s;
+					-ms-transition-delay: 1.775s;
+					transition-delay: 1.775s;
 				}
 
 				#main .item.thumb.delay-6 img {
-					-moz-transition-delay: 2s;
-					-webkit-transition-delay: 2s;
-					-ms-transition-delay: 2s;
-					transition-delay: 2s;
+					-moz-transition-delay: 1.9s;
+					-webkit-transition-delay: 1.9s;
+					-ms-transition-delay: 1.9s;
+					transition-delay: 1.9s;
 				}
 
 		body.is-preload #main {
