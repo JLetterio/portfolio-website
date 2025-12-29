@@ -7,7 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
+html, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -26,6 +26,14 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;
 	scroll-behavior: smooth;
 	}
+
+	body {padding-top: 80px;
+	margin: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	scroll-behavior: smooth;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -223,7 +231,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			ul.icons {
-				margin: 0 0 2em 0;
+				padding: 0 0 2em 0;
 			}
 
 		}
@@ -832,28 +840,33 @@ input, select, textarea {
 
 		}
 
-.logo {padding: 15px;}
+.logo {padding: 0px 0px 0px 0px;}
 
 .logo	img {
-	width: 3em;
+	width: 2.8em;
 }
 
 .navigation {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0 0px;
-  background-color: var(--primary);
-    position: fixed
+	display: flex;
+	align-items: center;
+	justify-content: space-between; /* ← NOT centered */
+	padding: 0 20px;
+	background-color: var(--primary);
 
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
 }
 
+
 nav ul {
-  display: flex;
-  list-style: none;
-  font-family: 'Source Sans Pro';
-  margin-top: 1.5vw;
-  margin-bottom: 1.5vw;
-  
+	display: flex;
+	list-style: none;
+	font-family: 'Source Sans Pro';
+	margin: 0;
+	padding: 0;
 }
 
 ul li a {
