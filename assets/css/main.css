@@ -276,7 +276,6 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		min-height: 100vh;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
